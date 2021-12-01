@@ -1,0 +1,213 @@
+body{
+     font-family: 'Montserrat', sans-serif;
+     margin: 0;
+    
+}
+
+.container{
+     padding-right: 70px;
+     padding-left: 70px;
+     padding-top: 40px;
+     width: auto;
+     margin: 0 auto;
+     font-family: inherit;
+     
+}
+
+.header-row{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.logo img{
+     /* margin-left: 70px;
+     margin-top: 41px; */
+}
+
+.title-row{
+     
+}
+
+ul{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     font-family: inherit;
+     font-style: 16px;
+     font-weight: 600;
+     
+}
+
+ul li{
+     margin-right: 60px;
+     
+}
+
+ul li:last-child{
+     margin-right: 60px;
+}
+
+.button-sing-up button{
+     width: 120px;
+     height: 40px;
+     background: #FFFFFF;
+     cursor: pointer;
+     
+     border-radius: 50px;
+     border-color: #1D419E;
+     font-weight: 600;
+     font-size: 16px;
+     font-family: inherit;
+     color:#1D419E;
+     
+}
+
+.market{
+     background-image: url(../img/img1.png);
+     margin: 0 auto;
+     width: 1500px;
+     height: 945px;
+}
+
+.declaration{
+     margin: 0;
+     padding-left: 70px;
+}
+
+.declaration h1{
+     font-family: inherit;
+     font-weight: 600;
+     font-size: 55px;
+     width: 650px;
+     height: 190px;
+}
+
+.declaration p{
+     font-family: inherit;
+     font-weight: 400;
+     font-size: 20px;
+     width: 640px;
+     height: 108px;
+}
+
+.button-join button{
+     width: 306px;
+     height: 54px;
+     font-family: inherit;
+     font-size: 20px;
+     font-weight: 600;
+     color: #FFFFFF;
+     background: #1D419E;
+     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+     border-radius: 50px;
+     cursor: pointer;
+}
+
+.what-market-row{
+     display: block;
+       
+     margin: 0 auto;
+}
+
+.what-market{
+     display: flex;
+}
+
+.what-market-title{
+     padding-top: 110px;
+     padding-bottom: 95px;
+     text-align: center;
+     font-family: 'Prompt', sans-serif;
+     font-weight:600;
+     font-size:55px;
+}
+     
+.what-market-title span{
+     font-family: 'Montserrat', sans-serif;
+     font-weight:600;
+     color: #1D419E;
+     line-height: 67px;
+}
+
+.what-market-row{
+     text-align: center;
+     padding-left: 70px;
+}
+
+.what-market-row p{
+     
+     font-size: 24px;
+}
+
+.what-make-title{
+     font-family: inherit;
+     padding-top: 110px;
+     padding-bottom: 60px;
+     font-weight: 600;
+     text-align: center;
+     font-size: 35px;
+}
+
+.what-make-img img{
+     display: block;
+     margin: 0 auto;
+}
+
+.rectangle{
+     display: flex;
+     padding-top: 45px;
+     width: 1840px;
+     height: 535px;
+     background:  #E4EDFF;
+     
+}
+
+.text{
+     padding-left: 68px;
+}
+
+.text h1{
+     width: 740px;
+     height: 184px;
+     margin: 0;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+     font-size: 55px;
+}
+
+.text p{
+
+     width: 662px;
+     height: 94px;
+     margin: 0;
+     padding-top: 40px;
+     font-family: 'Prompt', sans-serif;
+     font-size: 20px;
+}
+
+.what-market-title span{
+     font-family: 'Montserrat', sans-serif;
+     font-weight:600;
+     color: #1D419E;
+     line-height: 67px;
+}
+
+.text p span{        
+     font-family: 'Montserrat', sans-serif;          
+     font-weight:700;          
+     color: #1D419E;          
+     line-height: 67px;
+   
+}
+
+
+.rectangle circle{
+     flex: 1 1 auto;
+     margin: 0 500px;
+}
+
+
