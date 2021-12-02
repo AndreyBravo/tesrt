@@ -210,4 +210,37 @@ ul li:last-child{
      margin: 0 500px;
 }
 
+.title-row-contacts{
+     display:block;
+     
+}
+ 
+.contacts-number{
+     font-size: 20px;
+     color: #1D419E;
+     
+}
 
+.contacts-site{
+
+     padding-top: 20px;
+     font-size: 16px;
+}
+
+.futer img{
+     padding-top: 47px;
+     text-align: center;
+}
+
+.futer-text{
+     display: flex;
+     padding-top: 40px;
+}
+
+.futer-text .text1{
+     padding-left: 70px;
+}
+
+.futer-text .text2{
+     padding-left: 58px;
+}
