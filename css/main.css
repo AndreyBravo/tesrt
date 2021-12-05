@@ -5,6 +5,7 @@ body{
 }
 
 .container{
+     /* background-color:black; */
      padding-right: 70px;
      padding-left: 70px;
      padding-top: 40px;
@@ -20,14 +21,6 @@ body{
      justify-content: space-between;
 }
 
-.logo img{
-     /* margin-left: 70px;
-     margin-top: 41px; */
-}
-
-.title-row{
-     
-}
 
 ul{
      display: flex;
@@ -160,10 +153,14 @@ ul li:last-child{
 .rectangle{
      display: flex;
      padding-top: 45px;
-     width: 1840px;
+     width: auto;
      height: 535px;
      background:  #E4EDFF;
      
+}
+
+.rectangle .circle{
+     padding-left: 220px;
 }
 
 .text{
@@ -205,10 +202,6 @@ ul li:last-child{
 }
 
 
-.rectangle circle{
-     flex: 1 1 auto;
-     margin: 0 500px;
-}
 
 .title-row-contacts{
      display:block;
@@ -227,20 +220,22 @@ ul li:last-child{
      font-size: 16px;
 }
 
-.futer img{
-     padding-top: 47px;
-     text-align: center;
-}
 
-.futer-text{
+
+.futer-text{     
      display: flex;
-     padding-top: 40px;
+     justify-content: right;
+     padding: 15px ;
+     
+     
+     
+     
 }
+ .futer-text .text2{
+     padding-left: 160px;
+     
+ }
 
-.futer-text .text1{
-     padding-left: 70px;
-}
-
-.futer-text .text2{
-     padding-left: 58px;
-}
+ ul li{
+      cursor: pointer;
+ }
